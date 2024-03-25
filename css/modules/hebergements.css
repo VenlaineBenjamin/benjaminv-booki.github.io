@@ -30,13 +30,12 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.hebergements__marsaille__cards__carte__img {
-    border-radius: 1.25rem 1.25rem 0 0;
-    height: 7.75rem;
-    margin: 0.31rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.hebergements__marseille__cards__carte__photo {
+    height: 8.2rem;
+    width: 100%;
+    padding: 0.35rem;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
 }
 
 .hebergements__marsaille__cards__carte__info {
@@ -72,22 +71,20 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.hebergemeent__populaire__cards__carte__img {
-    flex-basis: 30%;
-    height: 9.1rem;
-    margin: 0.31rem 0 0.31rem 0.31rem;
-    border-radius: 1rem 0 0 1rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .herbergement__populaire__cards__carte__info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 70%;
     padding: 0.625rem 0.3125rem 0.3125rem 0.9375rem;
+}
+
+.herbergement__populaire__cards__carte__photo {
+    height: 9.1rem;
+    width: 7.6rem;
+    padding: 0.35rem;
+    border-radius: 1rem 0 0 1rem;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1000px) {
@@ -101,7 +98,7 @@
     }
 
     .hebergemeent__populaire__cards__carte__img {
-        width: 5.7rem;
+        width: 6.9rem;
     }
 }
 
@@ -115,12 +112,16 @@
         border-radius: 0;
     }
 
+    .hebergements__marseille {
+        background-color: var(--main-bg-color);
+    }
+
     .herbergement__populaire__cards {
         flex-direction: column;
     }
 
-    .hebergements__marseille {
-        background-color: var(--main-bg-color);
+    .hebergemeent__populaire__cards__carte__photo {
+        width: 5.7rem;
     }
 
     .hebergements__marseille__cards {

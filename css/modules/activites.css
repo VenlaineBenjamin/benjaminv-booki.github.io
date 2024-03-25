@@ -24,12 +24,12 @@
     cursor: pointer;
 }
 
-.activites__cards__carte__img {
-    flex-basis: 90%;
-    border-radius: 1.25rem 1.25rem 0 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.activites__cards__carte__photo {
+    height: 23.75rem;
+    width: 100%;
+    padding: 0.35rem;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
 }
 
 .activites__cards__carte strong {
@@ -40,6 +40,10 @@
 @media screen and (max-width: 1000px) {
     .activites__cards__carte {
         height: 16.9rem;
+    }
+
+    .activites__cards__carte__photo {
+        height: 12.5rem;
     }
 }
 
@@ -55,6 +59,10 @@
     }
 
     .activites__cards__carte {
-        height: 12.5rem;
+        height: 12.9rem;
+    }
+
+    .activites__cards__carte__photo {
+        height: 8.8rem;
     }
 }
