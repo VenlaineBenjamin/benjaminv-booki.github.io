@@ -27,34 +27,9 @@
 .activites__cards__carte__img {
     flex-basis: 90%;
     border-radius: 1.25rem 1.25rem 0 0;
-
-    &.photo10 {
-        background-image: url("/images/activites/reno-laithienne.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo11 {
-        background-image: url("/images/activites/paul-hermann.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo12 {
-        background-image: url("/images/activites/kilyan-sockalingum.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo13 {
-        background-image: url("/images/activites/florian-wehde.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .activites__cards__carte strong {

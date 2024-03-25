@@ -34,48 +34,9 @@
     border-radius: 1.25rem 1.25rem 0 0;
     height: 7.75rem;
     margin: 0.31rem;
-
-    &.photo1 {
-        background-image: url("/images/hebergements/fred-kleber.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo2 {
-        background-image: url("/images/hebergements/febrian-zakaria.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo3 {
-        background-image: url("/images/hebergements/reisetopia.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo4 {
-        background-image: url("/images/hebergements/annie-spratt.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo5 {
-        background-image: url("/images/hebergements/marcus-loke.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo6 {
-        background-image: url("/images/hebergements/nicate-lee.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hebergements__marsaille__cards__carte__info {
@@ -116,27 +77,9 @@
     height: 9.1rem;
     margin: 0.31rem 0 0.31rem 0.31rem;
     border-radius: 1rem 0 0 1rem;
-
-    &.photo7 {
-        background-image: url("/images/hebergements/emile-guillemot.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo8 {
-        background-image: url("/images/hebergements/aw-creative.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo9 {
-        background-image: url("/images/hebergements/febrian-zakaria2.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .herbergement__populaire__cards__carte__info {
